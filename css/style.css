@@ -1,0 +1,394 @@
+/*GLOBAL CLASSES START*/
+
+h1,h2,h3,h4,h5 {
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+}
+
+span {
+	font-weight: 600;
+	h
+}
+
+.bg-color {
+	background-color: #f7f8fa;
+}
+
+.blue-color {
+	color: #316DC3;
+}
+
+.bg-blue-color {
+	background-color: #316DC3;
+}
+
+.green-color {
+	color: #427900;
+}
+
+
+/*GLOBAL CLASS END*/
+
+
+/*Top-Nav-1*/
+
+header .top-nav-1 {
+	background-color: #316DC3;
+}
+
+header .top-nav-1 nav {
+	align-items: center;
+}
+
+header .top-nav-1 nav ul li .fab {
+	font-size: 15px;
+	color: #fff;
+	padding: 10px;
+}
+
+header .top-nav-1 nav ul li .fab:hover {
+	background-color: blue;
+}
+
+header .top-nav-1 nav span {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/*Top-Nav-2*/
+
+header .top-nav-2 nav {
+	align-items: center;
+}
+
+header .top-nav-2 .img-logo img {
+	max-width: 191px;
+}
+
+
+header .top-nav-2 nav ul li a {
+	transition: 0.1s;
+}
+
+header .top-nav-2 nav ul li a:hover {
+	background-color: #316DC3;
+	color: #ffff;
+	border-radius: 30px;
+	transition: 0.7s;
+}
+
+header .top-nav-2 nav ul li .active {
+	background-color: #316DC3;
+	color: #ffff;
+	border-radius: 30px;
+	transition: 0.7s;
+}
+
+.top-nav-1 .button .btn {
+	border: 1px solid #427900;
+	font-size: 11px;
+	color: #427900;
+	background-color: #fff;
+	border-radius: 0;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+/*marquee section */
+
+.marquee {
+	padding: 10px 0 10px 0;
+}
+
+.marquee .marque-body {
+	background-color: #316DC3
+}
+
+
+/*introduction section */
+
+.introduction {
+	padding: 30px 0 120px 0;
+}
+
+.introduction .intro-header h1 {
+	font-size: 32px;
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+	position: relative;
+	top: 20px;
+	z-index: 1000;
+}
+
+.introduction .favicon img {
+	background-color: #f7f8fa;
+}
+
+.favicon img {
+	width: 75px;
+	background: #f7f8fa;
+	z-index: 999;
+	position: relative;
+	padding: 18px;
+}
+
+.favicon {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	top: 2px;
+	margin-bottom: 20px;
+}
+
+.favicon:before {
+	content: " ";
+	width: 145px;
+	height: 2px;
+	position: absolute;
+	top: 60%;
+	background-color: #427900;
+	display: block;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+
+.introduction .intro-header p {
+	text-align: justify;
+	line-height: 1.5;
+	max-width: 945px;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	padding: 0 10px 0 10px 0;
+}
+
+
+/*daily status section */
+
+section.daily-status.bg-blue-color {
+	background-color: #2755e9;
+	padding: 28px 0 28px 0;
+}
+
+.daily-status .daily-status-body {
+	padding: 50px 0 50px 0;
+}
+
+.daily-status .daily-status-body img {
+	max-width: 40px;
+}
+
+.daily-status .daily-status-body h2 {
+	font-family: 'Merriweather', serif;
+	font-size: 48px;
+	color: #fff;
+	z-index: 1007;
+	position: relative;
+}
+
+.daily-status .daily-status-body h5 {
+	font-size: 14px;
+	color: #ffffff;
+	font-size: 15px;
+	line-height: 2.5;
+}
+
+.daily-status .daily-status-body h5 .green-color {
+	font-size: 18px;
+}
+
+.row.daily-status-body span.green-color {
+	color: #00ff00;
+}
+
+.shadow-content {
+	padding: 60px 0 35px 0px;
+}
+
+h2.blue-color.m-0 {
+	position: relative;
+	z-index: 1000;
+}
+
+.shadow-content .container .row .box {
+	color: #666666;
+	padding: 30px;
+	margin: 0 15px 30px;
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+	background-color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.shadow-content .container .row .box a img {
+	width: 70px;
+}
+
+.shadow-content .container .row .box h4 {
+	font-size: 24px;
+	margin: 20px 0 10px 0;
+	color: #316DC3;
+}
+
+
+/*MISSION & UPCOMING PROJECT SECTION*/
+
+.projects {
+	padding: 60px 0 75px 0;
+}
+
+.projects .box {
+	background-color: #f7f8fa;
+	border: 1px solid #eeeeee;
+	padding: 20px;
+	margin: 10px 30px 10px 0px;
+}
+
+
+
+.projects .row h2 {
+	font-size: 24px;
+	color: #316DC3;
+}
+
+.projects .line-bottom {
+	border: 0;
+	height: 2px;
+	background-color: #427900;
+	width: 48px;
+	margin-left: -40px;
+	list-style-type: none;
+}
+
+.projects .box h3 {
+	font-size: 15px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	display: inline-block;
+	margin-left: 10px
+}
+
+
+/*GALLERY SECTION*/
+
+.gallery {
+	padding: 30px 0 150px 0;
+}
+
+.gallery .container .row .gallery-fav {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	top: 2px;
+	margin-bottom: 20px;
+}
+
+.gallery-fav:before {
+	content: " ";
+	width: 145px;
+	height: 2px;
+	position: absolute;
+	top: 63%;
+	background-color: #427900;
+	display: block;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+
+.gallery .container .row .gallery-fav img {
+	background-color: white;
+	position: relative;
+	z-index: 1006;
+	padding: 15px;
+	width: 75px;
+}
+
+
+/*BIG or ADDRESS FOOTER SECTION*/
+
+.big-footer {
+	background-color: #25272e;
+	color: #bbb;
+	padding: 75px 0 55px 0;
+}
+
+.big-footer .address {
+	list-style-type: none;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px 10px 7px 0px;
+}
+
+.big-footer i {
+	margin-right: 5px;
+	color: #427900;
+	font-size: 11.5px;
+}
+
+.big-footer .links {
+	list-style-type: none;
+	font-size: 14px;
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+	color: #ffff;
+	border-bottom: 1px solid #444;
+	padding-bottom: 10px;
+}
+
+.big-footer .links:after {
+	content: "";
+	height: 2px;
+	left: 40px;
+	top: 30px;
+	position: absolute;
+	width: 50px;
+	background-color: #427900;
+}
+
+.big-footer .social-icons-title {
+	list-style-type: none;
+	font-size: 14px;
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+	color: #ffff;
+	padding-bottom: 10px;
+}
+
+.big-footer .social-icons {
+	list-style-type: none;
+	display: inline-block;
+	background-color: #316dc3;
+	border-radius: 50%;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+}
+.big-footer .social-icons i{
+	color: #fff;
+}
+.big-footer .social-icons .fab {
+	color: #ffff;
+	position: relative;
+	right: -2px;
+	top: 4px;
+	font-size: 13px;
+}
+
+
+/*COPYRIGHT or SMALL FOOTER SECTION*/
+
+.copyright {
+	background-color: #316dd9;
+	padding: 13.5px 2px 13.5px 2px;
+}
+
+.copyright .copyright-para {
+	color: #fff;
+	font-size: 11px;
+	font-family: 'Open Sans', sans-serif;
+}
